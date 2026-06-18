@@ -79,5 +79,5 @@ User User::Deserialize(const std::string& line) {
 void User::Print() const {
     std::cout << "[" << mId << "] " << mUsername
               << (mIsAdmin ? " (Admin)" : " (Customer)")
-              << " | Interactions: " << mHistory.size() << "\n";
+               << " | Interactions: " << mHistory.size() << "\n" << std::flush;
 }

@@ -10,7 +10,7 @@ void CartItem::Print() const {
     std::cout << "  [" << productId << "] " << productName
               << " x" << quantity
               << "  @$" << price
-              << "  = $" << Subtotal() << "\n";
+               << "  = $" << Subtotal() << "\n" << std::flush;
 }
 
 // ─── ShoppingCart ─────────────────────────────────────────────────────────────
@@ -67,5 +67,5 @@ void ShoppingCart::Print() const {
         std::cout << "  -----------------------------------------\n";
         std::cout << "  TOTAL: $" << GetTotal() << "\n";
     }
-    std::cout << "+---------------------------------------------+\n";
+    std::cout << "+---------------------------------------------+\n" << std::flush;
 }

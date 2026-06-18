@@ -71,4 +71,5 @@ void Order::Print() const {
               << " | " << mTimestamp
               << " | Total: $" << mTotal << "\n";
     for (auto& item : mItems) item.Print();
+    std::cout << std::flush;
 }

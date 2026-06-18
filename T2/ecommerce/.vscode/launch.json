@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Debug ecommerce",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}\\ecommerce.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+        "console": "integratedTerminal",
+        "MIMode": "gdb",
+        "miDebuggerPath": "gdb.exe",
+        "preLaunchTask": "Build & Run ecommerce"
+    }]
+}

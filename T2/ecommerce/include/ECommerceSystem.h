@@ -45,7 +45,7 @@ public:
 
     // ── Auth ──────────────────────────────────────────────────────────────────
     User* Login(const std::string& username, const std::string& password);
-    bool  RegisterUser(const std::string& username, const std::string& password);
+    bool  RegisterUser(const std::string& username, const std::string& password, bool isAdmin = false);
 
     // ── Customer operations ───────────────────────────────────────────────────
     void BrowseProducts(int userId);

@@ -58,5 +58,5 @@ void Product::Print() const {
               << " | Price: $" << mPrice
               << " | Stock: " << mStock
               << " | Views: " << mViewCount
-              << " | Purchases: " << mPurchaseCount << "\n";
+               << " | Purchases: " << mPurchaseCount << "\n" << std::flush;
 }

@@ -121,9 +121,10 @@ User* ECommerceSystem::Login(const std::string& username,
 }
 
 bool ECommerceSystem::RegisterUser(const std::string& username,
-                                   const std::string& password) {
-    if (FindUserByName(username)) return false;   // username taken
-    mUsers.emplace_back(mNextUserId++, username, password, false);
+                                   const std::string& password,
+                                   bool isAdmin) {
+    if (FindUserByName(username)) return false;
+    mUsers.emplace_back(mNextUserId++, username, password, isAdmin);
     return true;
 }
 

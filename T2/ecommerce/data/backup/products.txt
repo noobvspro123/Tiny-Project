@@ -64,7 +64,7 @@
 64|Running Shoes|Sportswear|59.99|20|0|0
 65|Yoga Mat|Sportswear|25.00|30|0|0
 66|Protein Powder|Health|49.99|0|0|0
-67|Water Bottle|Health|15.00|29|0|1
+67|Water Bottle|Health|15.00|30|0|0
 68|Desk Lamp|Furniture|30.00|35|0|0
 69|Office Chair|Furniture|299.99|8|0|0
 70|Wireless Mouse|Electronics|45.00|45|0|0
