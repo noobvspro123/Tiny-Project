@@ -30,7 +30,9 @@ To access the administrator features, use the following login credentials:
 Navigate to the `T1` directory, compile the C++ files, and execute:
 
 cd T1
+
 g++ *.cpp -o main
+
 ./main
 
 
@@ -40,6 +42,7 @@ Method 1: Windows (Using CMD / PowerShell)
 Open your terminal (cmd) and run the provided batch file:
 
 T2/ecommerce
+
 .\build.bat
 
 
@@ -47,7 +50,9 @@ Method 2: Linux / macOS / GitHub Codespaces (Using Makefile)
 Open your terminal and run:
 
 T2/ecommerce
+
 make
+
 ./ecommerce
 
 
