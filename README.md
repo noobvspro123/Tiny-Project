@@ -36,7 +36,7 @@ g++ *.cpp -o main
 ./main
 
 
- Running Project 2 (T2)
+### Running Project 2 (T2)
 Navigate to the T2/ecommerce directory. Depending on your operating system, choose one of the methods below:
 Method 1: Windows (Using CMD / PowerShell)
 Open your terminal (cmd) and run the provided batch file:
@@ -55,5 +55,8 @@ make
 
 ./ecommerce
 
-
+###  Resetting Data (For Testing)
+If you want to clear the current session data (orders, users, and interaction history) and start fresh, we have provided a reset script. 
+* **On Windows:** Run `.\reset.bat` in your terminal.
+This will clean up the `.txt` files in the data folder so you can test the Recommendation Engine from scratch.
 (Note: If you encounter a Permission denied error on Linux/Codespaces when running the executable, please grant execution permission by running chmod +x ecommerce first).
